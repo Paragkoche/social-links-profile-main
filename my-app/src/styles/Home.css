@@ -1,0 +1,71 @@
+.card {
+  width: 90vw;
+  max-width: 375px;
+  background-color: var(--dark-grey);
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.card header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+}
+.card header .avatar {
+  position: relative;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.card header .avatar img {
+  object-fit: cover;
+}
+
+.card header .name-info h1 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.card header .name-info p {
+  color: var(--green);
+  font-weight: 600;
+}
+.card header p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.card .btn-s {
+  display: flex;
+  flex-direction: column;
+  gap: 20;
+  margin: auto;
+  width: 100%;
+  flex-direction: column;
+  gap: 15px;
+}
+.card .btn-s .btn {
+  margin: auto;
+  width: 100%;
+  background-color: var(--grey);
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+.card .btn-s .btn:hover {
+  background-color: var(--green);
+  color: var(--grey);
+}
